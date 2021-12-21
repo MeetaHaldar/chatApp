@@ -1,0 +1,29 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "online chat application",
+  "main": "app.js",
+  "scripts": {
+    "watch":"nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeetaHaldar/chatApp.git"
+  },
+  "keywords": [
+    "chatapp",
+    "onlineChat"
+  ],
+  "author": "Meeta Haldar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeetaHaldar/chatApp/issues"
+  },
+  "homepage": "https://github.com/MeetaHaldar/chatApp#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
