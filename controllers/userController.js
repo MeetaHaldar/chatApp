@@ -4,10 +4,9 @@ exports.login = function () {};
 exports.logout = function () {};
 
 exports.register = function (req, res) {
-var user = new User()
-var user2 = new User()
-user.homePlanet
-user2.homePlanet
+var user = new User(req.body)
+user.register;
+
   res.send("thanks for trying to register");
 };
 
